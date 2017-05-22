@@ -2,8 +2,8 @@
  
 ##插件安装 
 
-    ## $ cordova plugin add (plugin directory) --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
-    ## $ ionic plugin add (plugin directory) --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
+    ## $ cordova plugin add https://github.com/woguava/cordova-plugin-unionpay.git --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
+    ## $ ionic plugin add https://github.com/woguava/cordova-plugin-unionpay.git --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
 
 ##插件删除
 
