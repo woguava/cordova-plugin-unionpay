@@ -1,14 +1,17 @@
 #银联 cordova 插件
  
-##插件安装    
+##插件安装 
+
     ## $ cordova plugin add (plugin directory) --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
     ## $ ionic plugin add (plugin directory) --variable UNIONPAY_APPID=$(uuid)  --variable UNIONPAY_TEST=$(00 生产 01 测试)
 
 ##插件删除
+
     ## $ cordova plugin rm cordova-plugin-unionpay
     ## $ ionic plugin rm cordova-plugin-unionpay
 
 #插件调用
+
     ##在TyptScript中定义对象
     ## declare let cordova: any;
 
