@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-unionpay",
+  "version": "1.0.0",
+  "description": "银联cordova支付插件",
+  "repo": "https://github.com/woguava/cordova-plugin-unionpay",
+  "cordova": {
+    "id": "cordova-plugin-unionpay",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "unionpay",
+    "payment"
+  ],
+  "author": "openunion.cn",
+  "license": "MIT license"
+}
