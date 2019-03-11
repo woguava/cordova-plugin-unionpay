@@ -25,6 +25,7 @@
         </config-file>
 
         <config-file parent="/*" target="AndroidManifest.xml" >
+            <uses-library android:name="org.simalliance.openmobileapi" android:required="false"/>
             <uses-permission android:name="android.permission.INTERNET"/>
 			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 			<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
@@ -66,7 +67,6 @@
 		<source-file src="libs/android/sdkPro/jar/x86/libuptsmaddon.so" target-dir="libs/x86" />
 		<source-file src="libs/android/sdkPro/jar/x86_64/libentryexpro.so" target-dir="libs/x86_64" />
 		<source-file src="libs/android/sdkPro/jar/x86_64/libuptsmaddon.so" target-dir="libs/x86_64" />
-        <source-file src="libs/android/sdkPro/jar/mips/libentryexpro.so" target-dir="libs/mips" />
         <source-file src="libs/android/sdkPro/UPPayAssistEx.jar" target-dir="libs" />
 		<source-file src="libs/android/sdkPro/jar/UPPayPluginExPro.jar" target-dir="libs" />
 
